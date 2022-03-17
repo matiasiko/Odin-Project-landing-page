@@ -15,7 +15,7 @@
 
 .hero {
     background: #1F2937;
-    height: 55vh;
+    height: 350px;
 }
 
 .header {
@@ -49,24 +49,22 @@
 
 .information-block {
     display: flex;
-    justify-content: space-around;
-    margin-right: 30px;
+    justify-content: space-between;
 }
 
 .hero-text {
-    width: 60%;
-    margin-left: 135px;
+    width: 500px;
 }
 
 .hero-placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 450px;
     height: 180px;
     background: #6d747d;
     color: #fff;
-    margin-right: 100px;
+
 }
 
 .hero-text h1 {
@@ -90,9 +88,11 @@
     border-radius: 3px;
 }
 
-/* End of Hero */
-
 /* SECTION ONE */
+
+.section-one {
+    margin-bottom: 100px;
+}
 
 .section-one h2 {
     margin: 20px 0;
@@ -119,4 +119,60 @@
     width: 120px;
     border: 2px solid #5794f7;
     border-radius: 10px;
+}
+
+/* SECTION TWO */
+.quote-block {
+    width: 700px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    width: 700px;
+    margin: 0 auto;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+/* SECTION THREE */
+.section-three {
+    margin: 100px 0;
+}
+.sign-up-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b82f6;
+    width: 800px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 5px;
+    gap: 70px;
+}
+
+.left-block {
+    color: #fff;
+}
+
+.sign-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 12px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #1f2937;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
